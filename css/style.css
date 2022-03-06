@@ -1,0 +1,204 @@
+:root{
+    /*color*/
+    --primaryColor: #F1F3FF;
+    --secondaryColor: #0D28A6;
+    /*Font*/
+    --mainFont:'helvetica';
+}
+
+.body{
+    font-family: var(--mainFont);
+}
+
+.heading{
+    font-family: var(--mainFont);
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+.subheading{
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*header*/
+.navbar{
+    background-color: var(--primaryColor);
+    padding-bottom: 50px;
+    
+}
+.nav-link {
+    font-family: var(--mainFont);
+    font-weight: 400;
+}
+.nav-link.active {
+    background-color:#5CB85F;
+}
+.btn-succes{
+    background-color: #5CB85F;
+}
+.home{
+    background-color: var(--primaryColor);
+
+}
+.satu li{
+    list-style-image: url(../assets/Group\ 53.svg);
+    padding-bottom: 15px;
+}
+.service .img1{
+    right: 0;
+    top: 0;
+}
+.service .img2{
+    left: -60px;
+    top: 280px;
+}
+.service .img3{
+    left: 120px;
+    top: -150px;
+    width: 374px;
+    height: 428px;
+}
+.service .img4{
+    top: -320px;
+    right:-10px;
+} 
+.img5{
+    width: 32px;
+    left: 24px;
+    top: 24px;
+    position: relative;
+}
+.card{
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 196px;
+    width: 268px;
+}
+.card-title{
+    padding-top:25px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.whyus .subheading{
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+}
+.testimoni{
+    margin-top:80px;
+}
+
+.testimoni h1{
+    font-size:36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.testimoni > p{
+    font-weight: 300;
+}
+
+.testimoni .swiper-slide{
+    width:619px !important;
+    height: 270px;
+    border-radius:8px;
+    background-color:var(--primaryColor);
+}
+
+.testimoni .img-testimoni{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 46px;
+}
+
+.testimoni .text-testimoni{
+    width: 400px;
+    margin-top:8px;
+}
+.sewa .container{
+    height: 326px;
+    left: 136px;
+    right: 136px;
+    background-color: #0D28A6;
+    border-radius: 13px;
+}
+.wrapper{
+    padding-top:7%;
+}
+.sewa .btn{
+    margin-left: 43%;
+
+}
+.faq .col{
+    padding-top: 50px;
+    right:0;
+    }
+ 
+.faq .heading{
+    font-size: 24px;
+    line-height: 36px;
+}
+.faq .subheading{
+    margin: 0;
+    padding: 0;
+}
+.contact .container{
+    padding-top: 100px;
+}
+.contact .img-fluid{
+    right:-10px;
+}
+.contact .subheading{
+    margin: 10px;
+    padding: 10px;
+}
+@media screen and (min-width: 768px){
+    .home{
+        padding-top:65px;
+    }
+    .heading{
+        font-size:45px;
+    }
+    .subheading{
+        font-size: 20px;
+    }
+    }
+@media screen and (min-width: 992px){
+    .home{
+        padding-top: -30px;
+    }
+    .service{
+        padding-top: 100px;
+    }
+    .service .subheading{
+        font: size 24px;
+    }
+    .content-lg-left{
+        padding-left: 120px;
+    }
+    .heading{
+        font-size: 36px;
+    }
+    .subheading{
+        font-size:14px;
+    }     
+    .home .row{
+        height: 200%;
+    }
+    .img1{
+        top: 0;
+        left: 0;
+        height: 133px;
+        position: absolute;
+    }
+    .img2{
+        left: 60px;
+        top: 336px;
+        height:48px;
+        position: absolute;
+    }
+}
